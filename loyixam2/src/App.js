@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
 
-function App() {
+export default function App() {
   return (
     <div>
-    <header>
+           <div>
+        <header>
       <div className="container">
         <h2>Company name</h2>
         <ul>
@@ -20,7 +20,7 @@ function App() {
       <div className="container">
         <p>Pricing</p>
       </div>
-      <p className="text2">Quickly build an effective pricing table for your potential customers with this <br></br>Bootstrap example. It's built with default Bootstrap components and utilities with<br></br><span className="text3"> little customization.</span></p>
+ <p className="text2">Quickly build an effective pricing table for your potential customers with this <br></br>Bootstrap example. Its built with default Bootstrap components and utilities with<br></br><span className="text3"> little customization.</span></p>
 
     </section>
     <section className="aside">
@@ -122,8 +122,7 @@ function App() {
     </div>
     
   </div>
-  
-);
+    </div>
+  )
 }
 
-export default App;
